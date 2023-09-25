@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario BOOTSTRAP</title>
+    <script src="https://kit.fontawesome.com/e4a0e53873.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<body class="bg-black">
+
+
+
+
+    <!--Formulario-->
+
+
+    <div class="container g-3 w-60 pt-5 pb-5 px-5 mx-auto bg-white ">
+        <span class="border row">
+
+
+
+
+
+            <div class="container">
+                <div class="row">
+                    <span class="border-bottom">
+                        <div class="col-12">
+                            <h2>Payment form example</h2>
+                        </div>
+                    </span>
+
+                    <span>
+                        <div class="alert alert-danger mt-3" role="alert">
+                            Some fields are missing
+                        </div>
+                    </span>
+
+                </div>
+            </div>
+
+
+
+
+            <div class="container mt-4">
+                <form class="row g-3">
+                    <div class="col-5">
+                        <label for="inputEmail4" class="form-label">Card #</label>
+                        <input type="email" class="form-control" placeholder="XXXXXXXXXXX" id="inputEmail4">
+                    </div>
+                    <div class="col-3">
+                        <label for="inputPassword4" class="form-label">CVC #</label>
+                        <input type="password" class="form-control" placeholder="0000" id="inputPassword4">
+                    </div>
+
+                    <div class="col-4">
+                        <label for="inputPassword4" class="form-label">Amount</label>
+                        <div class="container d-flex">
+                            <p class="m-2">$</p>
+                            <input type="password" class="form-control" placeholder="Amount" id="inputPassword4">
+                        </div>
+                    </div>
+            </div>
+
+
+            <div class="container mt-4">
+                <div class="row g-3">
+                    <div class="col-6">
+                        <label for="inputAddress" class="form-label">First Name</label>
+                        <input type="text" class="form-control" id="inputAddress">
+                    </div>
+                    <div class=" col-6">
+                        <label for="inputAddress2" class="form-label">Last Name</label>
+                        <input type="text" class="form-control" id="inputAddress2">
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="container mt-4">
+                <div class="row g-3">
+                    <div class=" col-md-6">
+                        <label for="inputCity" class="form-label">City</label>
+                        <input type="text" class="form-control" id="inputCity">
+                    </div>
+                    <div class="col-md-3">
+                        <label for="inputState" class="form-label">State</label>
+                        <select id="inputState" class="form-select">
+                            <option selected>Pick a state</option>
+                            <option>...</option>
+                        </select>
+                    </div>
+                    <div class="col-md-3">
+                        <label for="inputZip" class="form-label">Postal code</label>
+                        <input type="text" class="form-control" id="inputZip">
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="container mt-4">
+                <div class="row g-3 justify-content-between">
+
+                    <div class="col-3">
+                        <p>We accept:</p>
+                        <div class="bg-secondary p-2 rounded">
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
+                                    value="option1">
+                                <label class="form-check-label" for="inlineRadio1">
+                                    <i class="fa-brands fa-cc-mastercard fa-md" style="color: #ffffff;"></i>
+                                </label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
+                                    value="option2">
+                                <label class="form-check-label" for="inlineRadio2">
+                                    <i class="fa-brands fa-cc-visa fa-md" style="color: #ffffff;"></i>
+                                </label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
+                                    value="option1">
+                                <label class="form-check-label" for="inlineRadio1">
+                                    <i class="fa-brands fa-cc-diners-club fa-md" style="color: #ffffff;"></i>
+                                </label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
+                                    value="option2">
+                                <label class="form-check-label" for="inlineRadio2">
+                                    <i class="fa-brands fa-cc-amex fa-md" style="color: #ffffff;"></i>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-6">
+                        <div class="mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                            <p class="fw-lighter">add any notes here.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+            <div class="container">
+                <div class="row g-3">
+                    <span class="border-top">
+                        <div class="col-12">
+                            <div class="d-grid gap-2 d-md-flex justify-content-md-end mt-3 mb-3">
+                                <button class="btn btn-secondary" type="button">Cancel</button>
+                                <button class="btn btn-primary" type="button">Send</button>
+                            </div>
+                        </div>
+                    </span>
+                </div>
+            </div>
+
+
+
+
+            </form>
+        </span>
+    </div>
+
+
+
+    <!--Formulario-->
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
